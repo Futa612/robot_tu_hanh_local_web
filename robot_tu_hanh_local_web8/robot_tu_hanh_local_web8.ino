@@ -48,8 +48,8 @@ const char* PARAM_INPUT_1 = "relay";
 const char* PARAM_INPUT_2 = "state";
 
 // Replace with your network credentials
-const char* ssid = "hello";
-const char* password = "123456789";
+const char* ssid = "ssid";
+const char* password = "password";
 
 AsyncWebServer server(80);
 const char index_html[] PROGMEM = R"rawliteral(
