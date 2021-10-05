@@ -494,23 +494,6 @@ const char index_html[] PROGMEM = R"rawliteral(
             xhttp.send();
           }, 1000 ) ;
         </script>
-        <script>
-          function SET(data){
-          var xhr = new XMLHttpRequest();
-          xhr.open("GET", "setpoint/?"+document.getElementById("sp").value, true); 
-          xhr.send();
-          if(document.getElementById("sp").value == "duong anh thang")
-          {alert("dcm thắng ngu solo akali thua t");}
-          if(document.getElementById("sp").value == "xuan long")
-          {alert("dcm thang f1");}
-          if(document.getElementById("sp").value == "phu dat")
-          {alert("tên ai mà đẹp trai thế");}
-          if(document.getElementById("sp").value == "cao dac trai")
-          {alert("...");
-          alert("fanboiz nitendo");}
-          else{}
-            }
-        </script>
 </html>
 )rawliteral";
 
@@ -643,11 +626,10 @@ void loop() {
       }
     }
   }
-//░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  Source code này được tôi viết vào dự án cuối năm 2020 sau đó được sửa đổi vài lần và đây là phiên bản 8
-//░░╔═══╗░░░╔╗░░░░░░░░░░░░░░░░░░░░  Phiên bản 8 này đã được sử dụng cho đồ án tốt nghiệp k12 HaUI, vui lòng tham khảo thêm tại: https://www.haui.edu.vn/vn
-//░░║╔══╝░░░║║░░░░░░░░░░░░░░░░░░░░  
-//░░║╚══╦╦══╣╚═╦══╦══╦╗╔╦══╦══╗░░░  Hệ thống dùng để giám sát và điều khiển 2 động cơ cho xe tự hành MWR
-//░░║╔══╬╣══╣╔╗║══╣╔╗║║║║╔═╣║═╣░░░  Web chỉ có khả năng điều khiển trong môi trường mạng cục bộ và chỉ phục vụ mục đích học tập cơ bản, không phục vụ mục đích kinh doanh khác.
-//░░║║░░║╠══║║║╠══║╔╗║╚╝║╚═╣║═╣░░░  
-//░░╚╝░░╚╩══╩╝╚╩══╩╝╚╩══╩══╩══╝░░░  Tham gia group discord của Fishsauce và những người bạn tại đây: https://discord.gg/kC7xmvK2
-//░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░░  
+
+//Source code này được viết vào dự án cuối năm 2020 sau đó được sửa đổi vài lần và đây là phiên bản 8
+//Phiên bản 8 này đã được sử dụng cho đồ án tốt nghiệp k12 HaUI
+ 
+//Hệ thống dùng để giám sát và điều khiển 2 động cơ cho xe tự hành MWR
+//Web chỉ có khả năng điều khiển trong môi trường mạng cục bộ và chỉ phục vụ mục đích học tập cơ bản.
+
